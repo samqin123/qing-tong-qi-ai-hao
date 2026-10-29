@@ -1,0 +1,44 @@
+name: Validate archive filenames
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  markdown-filenames:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check Markdown filenames
+        run: |
+          python3 - <<'PY'
+          import datetime
+          import re
+          import subprocess
+          import sys
+
+          paths = subprocess.check_output(
+              ["git", "ls-files", "-z", "--", "*.md"]
+          ).decode().split("\0")
+          exceptions = {"README.md", "AGENTS.md"}
+          errors = []
+
+          for path in filter(None, paths):
+              if path in exceptions:
+                  continue
+              name = path.rsplit("/", 1)[-1]
+              match = re.fullmatch(r"(\d{8})-(.+)\.md", name)
+              if not match:
+                  errors.append(f"{path}: use YYYYMMDD-topic.md")
+                  continue
+              try:
+                  datetime.datetime.strptime(match.group(1), "%Y%m%d")
+              except ValueError:
+                  errors.append(f"{path}: invalid YYYYMMDD date")
+
+          if errors:
+              print("Markdown filename validation failed:")
+              print("\n".join(f"- {error}" for error in errors))
+              sys.exit(1)
+          print("Markdown filenames are valid.")
+          PY
