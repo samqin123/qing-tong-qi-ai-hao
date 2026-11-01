@@ -20,10 +20,16 @@ jobs:
           paths = subprocess.check_output(
               ["git", "ls-files", "-z", "--", "*.md"]
           ).decode().split("\0")
-          exceptions = {"README.md", "AGENTS.md"}
+          # The reusable Western Zhou research skill is repository workflow
+          # documentation, not an article; keep this explicit exception here.
+          exceptions = {"README.md", "AGENTS.md", ".codex/skills/western-zhou-states/SKILL.md"}
           errors = []
 
           for path in filter(None, paths):
+              # Source materials retain their original filenames; the date rule
+              # applies to authored research articles, not archived originals.
+              if path.startswith("资料库/原始资料/"):
+                  continue
               if path in exceptions:
                   continue
               name = path.rsplit("/", 1)[-1]
