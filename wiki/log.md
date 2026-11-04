@@ -421,3 +421,128 @@
 - Evidence: official `check_evidence.py` 0 fidelity suspects/0 evidence errors/0 unreferenced raw files; local links 2, broken 0; keyword retrieval passed for author/title/ISBN/CIP, section labels, and representative inscription/decoration/experimental-archaeology topics.
 - Limits: 420 image/layout placeholders point back to source PDF segment spans; page-thumbnail review verifies visual coverage and presence of plate/table pages, not full transcription of inscriptions or table cells. ISBN and publication data were visually checked against the scanned title/CIP pages.
 - Cleanup: all 29 temporary split PDFs, 29 segment Markdown files, logs and 29 thumbnail contact sheets removed; original source retained unchanged at 16,235,931 bytes.
+
+
+## [2026-11-04] ingest | 铭文卡片与相关图片素材
+- Disposition: New
+- Raw: raw/bronze-inscriptions/2026-11-04-inscription-card-image-assets.md
+- Wiki: wiki/bronze-inscriptions/card-image-assets.md
+
+
+## [2026-11-04] ingest | 宝鸡石鼓山M1—M3发掘材料
+- Disposition: New
+- Raw: raw/shigushan/2026-11-04-shigushan-m1-m3-excavation.md
+- Wiki: wiki/shigushan/shigushan-m1-m3-excavation.md
+- Coverage: 3/3 MinerU flash-extract segments cover physical PDF pages 1–53 contiguously; image placeholders retain page markers.
+
+
+## [2026-11-04] ingest | 《青铜器讲解手册》
+- Disposition: New
+- Raw: raw/bronze-reading/2026-11-04-bronze-guide-booklet-source.md
+- Wiki: wiki/bronze-reading/bronze-guide-booklet-source-review.md
+- Coverage: 1/1 MinerU flash-extract result covers the 7-page source; OCR/table/image placeholders remain uncorrected and are documented in Raw.
+
+
+## [2026-11-04] ingest | no material: raw/bronze-research/2026-11-04-ma-chengyuan-baike-printout.md
+- Disposition: No material
+
+
+## [2026-11-04] ingest | 吴文化博物馆“纹章九州”特展研究报告
+- Disposition: New
+- Raw: raw/catalogues/2026-11-04-wuzhong-museum-patterns-of-china-exhibition-report.md
+- Wiki: wiki/catalogues/wuzhong-museum-patterns-of-china-exhibition-report-review.md
+- Coverage: 1/1 MinerU result covers the source PDF pages 1–9.
+
+
+## [2026-11-04] ingest | 楚国吞并小国的媒体文章
+- Disposition: New
+- Raw: raw/chu/2026-11-04-chu-annexation-small-states-media-article.md
+- Wiki: wiki/chu/chu-annexation-small-states-media-article-review.md
+- Coverage: 1/1 MinerU result covers the source PDF pages 1–7.
+
+
+## [2026-11-04] ingest | 商周之际凤鸟纹卣的类型演变与孝民屯陶范断代
+- Disposition: New
+- Raw: raw/bronze-vessels/2026-11-04-zhang-changping-phoenix-you-xiaomintun-shigushan.md
+- Wiki: wiki/bronze-vessels/phoenix-you-evolution-and-xiaomintun-casting-molds.md
+- Coverage: 1/1 MinerU result covers the source PDF pages 1–8.
+
+
+## [2026-11-04] ingest | 杜金鹏《商周铜爵研究》
+- Disposition: New
+- Raw: raw/bronze-vessels/2026-11-04-du-jinpeng-shangzhou-bronze-jue.md
+- Wiki: wiki/bronze-vessels/du-jinpeng-shangzhou-bronze-jue-study.md
+- Coverage: 2/2 sequential MinerU segments cover physical pages 1–36 contiguously; image/table markers are retained.
+
+
+## [2026-11-04] ingest | no material: raw/catalogues/2026-11-04-nanshui-beidiao-changqu-yizhen-ceramics-catalogue.md
+- Disposition: No material
+
+
+## [2026-11-04] ingest | 妇好墓铜觚、爵配制：岳洪彬的套数组合论证
+- Disposition: New
+- Raw: raw/bronze-vessels/2026-11-04-yue-hongbin-fuhao-gu-jue-sets.md
+- Wiki: wiki/bronze-vessels/yue-hongbin-fuhao-gu-jue-set-composition.md
+- Coverage: 2/2 sequential MinerU segments cover physical pages 1–24 contiguously; image markers are retained.
+
+
+## [2026-11-04] ingest | 殷墟晚期青铜礼器的两种发展方向
+- Disposition: New
+- Raw: raw/bronze-vessels/2026-11-04-yue-zhanwei-li-yongdi-shen-mingqing-late-shang-bronzes.md
+- Wiki: wiki/bronze-vessels/late-shang-ritual-bronzes-two-development-paths.md
+- Coverage: 1/1 MinerU result covers the source PDF pages 1–20.
+
+
+## [2026-11-04] ingest | 何家村金、银铛文章
+- Disposition: New
+- Raw: raw/tang-gold-silver/2026-11-04-hejiacun-gold-silver-dang-article.md
+- Wiki: wiki/tang-gold-silver/hejiacun-gold-silver-dang-article-review.md
+- Extraction: ModelBest MiniCPM-OCR-1.0, 4/4 pages; returned text (5,085 chars) is shorter than the PDF embedded text (6,767 chars), so image/caption coverage is incomplete.
+
+
+## [2026-11-04] ingest | 黄益飞《西周金文礼制研究》
+- Disposition: New; source-review only
+- Raw: raw/zhou-rituals/2026-11-04-huang-yifei-western-zhou-bronze-inscription-rituals.md
+- Wiki: wiki/zhou-rituals/huang-yifei-western-zhou-bronze-inscription-rituals-source-review.md
+- Extraction: ModelBest MiniCPM-OCR-1.0 reported 405/405 pages; OCR stream has detached references before title, no reliable page boundaries, image omissions and garbled text.
+- Use: Chapter/subject navigation only; validate substantive claims, citations and inscription readings against the source PDF.
+
+
+## [2026-11-04] ingest | 《饮水思源：南水北调中线工程之文化篇》
+- Disposition: No material for current Western Zhou states / bronze research focus
+- Raw: raw/catalogues/2026-11-04-capital-museum-drinkwater-catalogue.md
+- Extraction: ModelBest MiniCPM-OCR-1.0 reported 327/327 pages; OCR is retained for search only, with no reliable page boundaries.
+
+
+## [2026-11-04] ingest | 陶寺北墓地2015M1发掘简报
+- Disposition: New
+- Raw: raw/taosi-north/2026-11-04-taosi-north-2015m1-excavation.md
+- Wiki: wiki/taosi-north/taosi-north-2015m1-excavation.md
+- Extraction: ModelBest MiniCPM-OCR-1.0 reported 39/39 pages; image plates are placeholders and quantities/measurements require PDF verification.
+
+
+## [2026-11-04] ingest | 陶寺北墓地M3011发掘简报
+- Disposition: New
+- Raw: raw/taosi-north/2026-11-04-taosi-north-m3011-excavation.md
+- Wiki: wiki/taosi-north/taosi-north-m3011-excavation.md
+- Extraction: ModelBest MiniCPM-OCR-1.0 reported 51/51 pages; image plates and inscription readings require source-PDF verification.
+
+
+## [2026-11-04] ingest | 《虢国夫人珍宝》
+- Disposition: New; source-review only
+- Raw: raw/guoguo/2026-11-04-guo-state-ladies-exhibition-text.md
+- Wiki: wiki/guoguo/guo-state-ladies-exhibition-text-source-review.md
+- Extraction: ModelBest MiniCPM-OCR-1.0 reported 15/15 pages; formal author/source page unconfirmed; images and inscription readings are not reliable in OCR.
+
+
+## [2026-11-04] ingest | 王子午鼎与“楚灵王好细腰”关系讨论
+- Disposition: No material; extraction inadequate for synthesis
+- Raw: raw/bronze-inscriptions/2026-11-04-wangziwu-ding-slender-waist-debate.md
+- Extraction: ModelBest MiniCPM-OCR-1.0 reported 6/6 pages, but Chinese body text is severely incomplete and the English abstract is contradictory.
+
+
+## [2026-11-04] ingest | 方雪《王子午鼎铭文的图像化设计语言研究》
+- Disposition: New; source-review
+- Raw: raw/bronze-inscriptions/2026-11-04-fang-xue-wangziwu-inscription-visual-design.md
+- Wiki: wiki/bronze-inscriptions/wangziwu-inscription-visual-design-source-review.md
+- Extraction: ModelBest MiniCPM-OCR-1.0 reported 6/6 pages; image plates not retained reliably; design thesis is attributed to author and not used as epigraphic consensus.
